@@ -1,0 +1,35 @@
+.disp-none {
+  display: none;
+}
+
+.container .advantage__list {
+  display: flex;
+  padding: 94px 0px;
+  justify-content: space-between;
+}
+.advantage__list {
+  & > li {
+    display: flex;
+    width: 270px;
+    flex-direction: column;
+    &.container {
+      display: flex;
+      padding: 94px 0px;
+      justify-content: space-between;
+    }
+  }
+}
+
+.advantage__content {
+  height: 120px;
+  width: 270px;
+  background-color: var(--portfolio-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/* ICON  */
+
+/* indentation */

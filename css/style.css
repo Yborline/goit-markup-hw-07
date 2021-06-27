@@ -606,7 +606,7 @@ body {
   justify-content: first baseline;
 }
 
-.ad-footer :not(:last-child) {
+.footer__address :not(:last-child) {
   margin-bottom: 9px;
 }
 /* indentation */
@@ -614,7 +614,7 @@ body {
 .footer {
   background-color: var(--hero-color);
 }
-.logo-white {
+/* .logo-footer{
   font-family: Raleway;
   color: var(--white-color);
   font-weight: bold;
@@ -622,9 +622,12 @@ body {
   line-height: 1.192;
   letter-spacing: 0.03em;
   margin-bottom: 20px;
+} */
+.logo-footer {
+  color: var(--white-color);
 }
 
-.address {
+.footer__address {
   color: var(--white-color);
   font-size: 14px;
   line-height: 1.411;
